@@ -8,6 +8,13 @@ let navigationUtil = function () {
         browser.wait(ec.elementToBeClickable(element), delay);
     };
 
+    this.waitTillElementToBeVisible = (element, milliseconds) => {
+        let delay = milliseconds || defaultWaitTime;
+        browser.wait(ec.stalenessOf(element), delay);
+    };
+
+
+
     this.waitTillTextToBePresentInElement = (element, text, milliseconds) => {
         let delay = milliseconds || defaultWaitTime;
         browser.wait(ec.textToBePresentInElementValue(element, text), delay, `Element with  text: ${text} not displayed`);

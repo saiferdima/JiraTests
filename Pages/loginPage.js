@@ -30,9 +30,7 @@ let loginPage = function () {
 
   }
 
-  this.logOut = () => {
 
-  }
 
 
 
