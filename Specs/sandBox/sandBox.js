@@ -18,9 +18,9 @@ describe('Home page  Tests  -----> ', () => {
   })
 
   it('Test Case - 1 SandBox', async () => {
-    await basicPage.clickManagePluginMenu()
+    await basicPage.clickManageAppsMenuLink()
     await basicPage.confirmAdminAccess(password)
-
+    await basicPage.selectCurrentProject()
 
 
   })
