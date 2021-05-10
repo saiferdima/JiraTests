@@ -5,7 +5,7 @@
     "jasmine": "^3.5.0",
     "jasmine-reporters": "^2.2.0",
     "jasmine-spec-reporter": "^2.7.0",
-    "lodash": "^4.0.0",
+    "lodash": "^4.17.21",
     "protractor": ">=5.1.2",
     "protractor-html-screenshot-reporter": "0.0.21",
     "protractor-jasmine2-html-reporter": "0.0.6"
